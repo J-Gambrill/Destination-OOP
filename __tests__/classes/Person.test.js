@@ -19,7 +19,7 @@ describe('Person', () => {
         expect(p1.getBags).toEqual([])
     })
 
-    test('Is an instance created?', () => {
+    test('Is a bag added', () => {
         p1.addBag('bag1')
         expect(p1.getBags()).toEqual(['Bag1'])
         expect(p1.getBags().length).toBe(1)
